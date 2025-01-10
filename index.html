@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Sentiment Analysis</title>
+    <!-- Include your custom JS file -->
+    <script src="script.js" defer></script>  <!-- The js file with the fetch request -->
+</head>
+<body>
+    <h1>Movie Review Sentiment Analysis</h1>
+
+    <form id="reviewForm">
+        <label for="review">Enter your movie review:</label>
+        <textarea id="review" name="review" rows="4" cols="50" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Show result of the prediction -->
+    <h2>Prediction Result:</h2>
+    <p id="result">Please submit a review to see the result.</p>
+
+</body>
+</html>
